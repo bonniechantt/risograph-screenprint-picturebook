@@ -1,0 +1,4 @@
+interface:
+  display_name: "Risograph Screen Print Picturebook"
+  short_description: "Faithful fine-halftone Risograph image transformations"
+  default_prompt: "Transform the supplied image into a subject-faithful Japanese picture-book Risograph illustration on an exact 3:4 vertical portrait canvas, with a large fine halftone background, restrained per-image palette, and light print texture. For composite photos, extract and re-center the intended subject instead of applying a uniform filter over the whole scene. Do not add text unless the user asks for it and supplies exact wording; for a multi-image title set, use the approved HiraMinProN-W6 treatment with fixed size and alignment."
