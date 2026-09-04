@@ -9,7 +9,8 @@ A reusable Codex Skill for transforming supplied photos into Japanese independen
 - Re-centers and re-composes extracted subjects with balanced negative space.
 - Outputs an exact 3:4 vertical portrait canvas by default, recomposing or cropping sources without stretching the subject.
 - Uses restrained retro inks, fine halftone fields, light paper fibers, and subtle registration variation.
-- Keeps text optional: no new title or caption unless the user supplies exact wording.
+- Requires a pre-generation text confirmation: use exact user wording or explicit permission for subject-based automatic wording; otherwise add no new text.
+- Locks the source orientation during extraction and re-composition, with no rotation, flip, or mirror unless explicitly requested.
 
 ## Install
 
